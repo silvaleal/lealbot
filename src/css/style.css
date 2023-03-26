@@ -1,0 +1,73 @@
+header .lavbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+header .lavbar img {
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+}
+header .lavbar a{
+    color: white;
+}
+header .lavbar.left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+header .lavbar.left ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+header .lavbar.right {
+    align-items: center;
+    background-color: yellow;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+header .conteudo {
+    margin-top: 350px;
+    text-align: center;
+    padding: 0 250px;
+}
+header .conteudo h2 {
+    font-size: 35px;
+}
+header .conteudo p {
+    margin-bottom: 10px;
+}
+header .conteudo a {
+    padding: 5px 15px;
+}
+
+main .intro {
+    padding: 50px 155px;
+    display: flex;
+
+    text-align: center;
+}
+main .intro img {
+    width: 350px;
+    height: 350px;
+    border-radius: 25px 0 25px 0;
+}
+main .intro-texto {
+    margin-top: 50px;
+    padding: 0 50px;
+}
+main .intro-texto p {
+    margin-bottom: 5px;
+}
+main .intro-texto a {
+    background-color: yellow;
+    padding: 2px 10px;
+    color: black;
+}
+.botao.adicionar {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
